@@ -1,0 +1,33 @@
+@import '../../styles/variables';
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 10px;
+  width: 400px;
+  // font-size: 16px;
+    box-shadow: $color-delimetershadow;
+  border-bottom: 1px solid $color-dirtywhite;
+}
+
+.table{
+
+  display: flex;
+  width: auto;
+  height: 450px;
+  font-size: 16px;
+  flex-direction: column;
+  font-weight: 100;
+ // margin-top: 20px;
+  overflow: auto;
+  max-height: 100%;
+  // box-shadow: $color-delimetershadow;
+  // border-bottom: 1px solid $color-dirtywhite;
+  padding: 20px;
+
+  &__title{
+    	 margin-bottom: auto;
+      margin-top: 10px;
+  }
+ 
+}
